@@ -13,7 +13,7 @@ int main ()
 	int Daya, Tarif,Gol;
 //Algoritma
 	printf("Golongan=");
-	scanf("%d",&Gol);
+	scanf("%d",&Gol); //Golongan hanya ada 1 dan 2
     printf("Daya=");
 	scanf("%d",&Daya);
 	if (Gol==1 or Gol==2){
