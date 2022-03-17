@@ -13,13 +13,13 @@ int main ()
 	int harga,jenis;
 //Algoritma
     printf("Harga:");
-	scanf("%d",&harga);
+	scanf("%d",&harga); //Harga harus diantara 200-10000
 	printf("Jenis:");
 	scanf("%s",&jenis);
 	if (harga>200 and harga<10000){
-			if (jenis=='A'){printf("Harga Total= %.2f", harga-(harga*0.1));}
-			else if (jenis=='B'){printf("Harga Total= %2.f", harga-(harga*0.15));}
-		    else if (jenis=='C'){printf("Harga Total= %2.f", harga-(harga*0.2));}
+			if (jenis=='A'){printf("Harga Total= %.f", harga-(harga*0.1));}
+			else if (jenis=='B'){printf("Harga Total= %.f", harga-(harga*0.15));}
+		    else if (jenis=='C'){printf("Harga Total= %.f", harga-(harga*0.2));}
 		}
 	return 0;
 }
