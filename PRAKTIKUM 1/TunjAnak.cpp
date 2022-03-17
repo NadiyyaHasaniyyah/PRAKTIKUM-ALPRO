@@ -20,6 +20,4 @@ int main ()
 	else {T=3*(0.1*G);}
     printf("Besar Tunjangan Anak =%d", T);
 	return 0;
-
-
 }
