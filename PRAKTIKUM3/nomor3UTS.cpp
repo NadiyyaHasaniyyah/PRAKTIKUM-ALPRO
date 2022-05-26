@@ -1,6 +1,5 @@
 //Nama File: Nomor 3
-//Tanggal: 30 Maret 2022
-//Pembuat: Nadiyya Hasaniyyah
+//Pembuat: Nadiyya 
 //NIM:24060121120030
 //Kelas: B
 
